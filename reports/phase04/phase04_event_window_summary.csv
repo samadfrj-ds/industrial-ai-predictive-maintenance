@@ -1,0 +1,9 @@
+asset,event_id,label,valid_observations,alerts,event_flagged,available_observations,evaluation_scope,evaluation_status,filter_pass_rate_percent,planned_window_hours,available_hours_equivalent,prediction_window_coverage_percent
+0,0,anomaly,248,15.0,True,288,same_asset,evaluable,86.11,48,48.0,100.0
+0,24,normal,288,0.0,False,288,same_asset,evaluable,100.0,48,48.0,100.0
+0,26,anomaly,0,,,0,same_asset,not_evaluable,,48,0.0,0.0
+0,71,normal,288,0.0,False,288,same_asset,evaluable,100.0,48,48.0,100.0
+0,73,anomaly,285,30.0,True,288,same_asset,evaluable,98.96,48,48.0,100.0
+10,3,normal,288,0.0,False,288,cross_asset,evaluable,100.0,48,48.0,100.0
+10,17,normal,288,0.0,False,288,cross_asset,evaluable,100.0,48,48.0,100.0
+10,40,anomaly,144,0.0,False,144,cross_asset,evaluable,100.0,48,24.0,50.0
